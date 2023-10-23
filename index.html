@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale =1.0">
+    <title>Geolocation</title>
+    <link rel="stylesheet" href= "C:\Users\joshy\testmap\style.css">
+  </head>
+  <body>
+    <h1>Google Maps</h1>
+    <div id="map"></div>
+
+    <!-- 
+      The `defer` attribute causes the callback to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises.
+      See https://developers.google.com/maps/documentation/javascript/load-maps-js-api
+      for more information.
+      -->
+    <script defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAz00icAT2oHR2DHYUs_yIoS-D4hdlOviQ&callback=initMap"
+    ></script>
+    <script src ="C:\Users\joshy\testmap\app.js"></script>
+  </body>
+</html>
